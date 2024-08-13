@@ -114,7 +114,7 @@ async def on_new_link(event):
 
 ubot_self = client.loop.run_until_complete(client.get_me())
 log.info(
-    "\nClient has started as %d.\n\nJoin @BotzHub [ https://t.me/BotzHub ] for more cool bots :)",
+    "\nClient has started as %d.\n\nJoin @@SotirisKInfoBot [ https://t.me/@SotirisKInfoBot ] for more cool bots :)",
     ubot_self.id,
 )
 client.run_until_disconnected()
